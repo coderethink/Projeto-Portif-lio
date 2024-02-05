@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: Poppins;
+  color: #f7f7f7;
+}
+
+#container {
+  width: 360px;
+  height: 522px;
+  margin: 56px auto 0px;
+  background-color: #05050548;
+  border-radius: 8px;
+}
+
+#profile img {
+  width: 112px;
+  border-radius: 50%;
+  border: 2px solid rgba(123, 32, 214, 0.336);
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+  margin-top: 8px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  color: rgb(253, 253, 253);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(80, 78, 78);
+  padding: 16px 24px;
+  background: rgba(236, 148, 232, 12%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 19px;
+}
